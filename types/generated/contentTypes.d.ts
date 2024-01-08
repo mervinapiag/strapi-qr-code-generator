@@ -751,6 +751,13 @@ export interface PluginUsersPermissionsUser extends Schema.CollectionType {
       'plugin::users-permissions.role'
     >;
     picture: Attribute.Media;
+    born: Attribute.Date;
+    died: Attribute.Date;
+    facebook_url: Attribute.String;
+    orbituary_page: Attribute.String;
+    contact_us: Attribute.String;
+    full_name: Attribute.String;
+    motto: Attribute.Text;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     createdBy: Attribute.Relation<

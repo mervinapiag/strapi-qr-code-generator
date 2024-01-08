@@ -66,11 +66,33 @@
       "configurable": false
     },
     "picture": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "born": {
+      "type": "date"
+    },
+    "died": {
+      "type": "date"
+    },
+    "facebook_url": {
+      "type": "string"
+    },
+    "orbituary_page": {
+      "type": "string"
+    },
+    "contact_us": {
+      "type": "string"
+    },
+    "full_name": {
+      "type": "string"
+    },
+    "motto": {
+      "type": "text"
     }
   }
 }
